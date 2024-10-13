@@ -1,7 +1,6 @@
 const sumAll = function (firstInt, secondInt) {
   const isPositiveInteger = (positiveInt) => {
     return (
-      typeof positiveInt === "number" &&
       Number.isInteger(positiveInt) &&
       positiveInt > 0
     );
